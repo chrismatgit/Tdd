@@ -9,7 +9,7 @@ install:
 
 # command to run tests
 script:
-  - nosetests --with-coverage --cover=test_user
+  - nosetests --with-coverage --cover-package=tests
   - coverage report
 
 
