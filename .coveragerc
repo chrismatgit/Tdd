@@ -5,4 +5,4 @@ omit =
     */__pycache__/*
     *.pyc
     */vienv/*
-*/home/travis/virtualenv/*
+    */home/travis/virtualenv/*
