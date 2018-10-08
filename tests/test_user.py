@@ -11,7 +11,6 @@ class TestUserAccount(unittest.TestCase):
         self.name = "chris"
         self.age = 23
 
-
         self.user_account = dict(
             username = self.username,            
             email = self.email,

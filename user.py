@@ -58,7 +58,6 @@ class User:
             return False
 
     def user_login(self, username, password):
-        """ Checks True if both password and username are a match"""
         for user in self.users:
             name = user['name']
             if username and self.username_validation(username, name) == user['username'] and \
